@@ -1,8 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hudler Productions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-<h1>Hudler Productions</h1>
-<p>Were moving here cause it's free!!</p>
+    <header>
+        <div class="container">
+            <h1>Hudler Productions</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Hudler Productions</h2>
+            <p>
+                Hudler Productions LLC is an ever evolving Video Production studio that cares about your message and the style you want to portray your story with.  With a formal education in Digital Cinematography our cost efficient ways makes it possible for anybody to get professional grade content for their business or organization  without spending the tens of thousands on the equipment, and have a steep learning curve for lighting, video codecs, editing and color grading.
+                We are a proud Veteran owned and operated Limited Liability Company.  Our values of discipline, professionalism, and adaptability make us efficient in our tasks ensuring that your story stays true to your vision throughout the entire process. </p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Our Work</h2>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Description of Project 1.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>Description of Project 2.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project3.jpg" alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p>Description of Project 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
