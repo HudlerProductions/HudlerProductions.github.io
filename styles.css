@@ -20,6 +20,9 @@ body {
 }
 
 .headerlogo img {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     max-width: 100%; /* Responsive image */
 }
 
