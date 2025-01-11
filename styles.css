@@ -63,23 +63,27 @@ h2 {
     text-align: center;
 }
 
-/* Portfolio items */
-.portfolio-items {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+/* Portfolio Scroll Styles */
+.portfolio-scroll {
+    display: flex; /* Use Flexbox to arrange items in a row */
+    overflow-x: auto; /* Allow horizontal scrolling */
+    padding: 10px 0; /* Add some padding */
+    scroll-behavior: smooth; /* Smooth scrolling */
 }
 
 .portfolio-item {
+    flex: 0 0 auto; /* Prevent flex items from growing/shrinking */
+    width: 300px; /* Set a fixed width for each item */
+    margin-right: 20px; /* Add space between items */
     background: #f4f4f4;
     padding: 20px;
-    margin: 10px;
-    flex: 1 1 30%; /* Responsive flex item */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px; /* Rounded corners */
 }
 
 .portfolio-item img {
     max-width: 100%; /* Responsive image */
+    border-radius: 5px; /* Round image corners */
 }
 
 /* Form styles */
