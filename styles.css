@@ -19,12 +19,7 @@ body {
     overflow: hidden;
 }
 
-.headerlogo img {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    max-width: 100%; /* Responsive image */
-}
+
 
 /* Header styles */
 header {
@@ -36,6 +31,10 @@ header {
 header h1 {
     text-align: center;
 }
+.resize-image {
+    width: 100%;      /* Resize the image to 100% of its container's width */
+    height: auto;     /* Maintain the image's aspect ratio */
+  }
 
 nav {
     text-align: center;
