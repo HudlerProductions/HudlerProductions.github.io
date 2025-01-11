@@ -19,6 +19,10 @@ body {
     overflow: hidden;
 }
 
+.headerlogo img {
+    max-width: 100%; /* Responsive image */
+}
+
 /* Header styles */
 header {
     background: #CF7A2C;
