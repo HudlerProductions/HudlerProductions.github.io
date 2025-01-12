@@ -142,6 +142,7 @@ footer {
     .about-container {
         flex-direction: column; /* Stack text and image vertically on smaller screens */
         text-align: center; /* Center the content */
+        padding:10px
     }
 
     .text-content,
