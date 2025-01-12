@@ -101,7 +101,7 @@ h2 {
     flex: 0 0 auto; /* Prevent flex items from growing/shrinking */
     width: 300px; /* Set a fixed width for each item */
     margin-right: 20px; /* Add space between items */
-    background: #f4f4f4;
+    background: #e2712b;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px; /* Rounded corners */
