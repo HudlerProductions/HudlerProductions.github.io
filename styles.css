@@ -137,23 +137,6 @@ footer {
     padding: 10px 0;
 }
 
-/* Responsive Styles for About Section */
-@media (max-width: 768px) {
-    .about-container {
-        flex-direction: column; /* Stack text and image vertically on smaller screens */
-        text-align: center; /* Center the content */
-        padding:10px
-    }
-
-    .text-content,
-    .image-content {
-        max-width: 100%; /* Full width on small screens */
-    }
-
-    .about-company-logo {
-        max-width: 200px; /* Smaller max-width for mobile */
-    }
-}
 
 /* Responsive styles */
 @media (max-width: 768px) {
