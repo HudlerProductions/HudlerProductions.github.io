@@ -19,11 +19,6 @@ body {
     overflow: hidden;
 }
 
-copy
-css
-
-/* styles.css */
-
 /* Reset default styles */
 body, html {
     margin: 0;
@@ -154,7 +149,7 @@ footer {
         max-width: 100%; /* Full width on small screens */
     }
 
-    .company-logo {
+    .about-company-logo {
         max-width: 200px; /* Smaller max-width for mobile */
     }
 }
