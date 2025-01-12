@@ -125,7 +125,8 @@ label {
 input, textarea {
     margin-bottom: 15px;
     padding: 10px;
-    border: 1px solid #ccc;
+    background: #CF7A2C;
+    border: 1px solid ;
     border-radius: 5px;
 }
 
