@@ -19,7 +19,36 @@ body {
     overflow: hidden;
 }
 
+copy
+css
 
+/* styles.css */
+
+/* Reset default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Video background styles */
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Hide any overflow */
+    z-index: -1; /* Send video behind content */
+}
+
+.video-background video {
+    min-width: 100%; /* Ensure video covers full width */
+    min-height: 100%; /* Ensure video covers full height */
+    width: auto; /* Allow auto width */
+    height: auto; /* Allow auto height */
+    object-fit: cover; /* Cover entire container */
+}
 
 /* Header styles */
 header {
@@ -124,4 +153,11 @@ footer {
         display: block; /* Stack the navigation items */
         margin: 5px 0;
     }
+}
+.content {
+    position: relative; /* Position relative for z-index */
+    z-index: 1; /* Bring content above video */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    padding: 20px; /* Padding around content */
 }
